@@ -1,0 +1,10 @@
+<div style='text-align: center'>
+  <h2>Dallas, Texas</h2>
+  <span *ngIf='weather.humidity != ""'>
+    <p> Humidity: {{ weather.humidity + '%' }}</p>
+    <p> Average Temp: {{ weather.tempAvg + ' °F' }}</p>
+    <p> Average High: {{ weather.tempHigh + ' °F' }}</p>
+    <p> Average Low: {{ weather.tempLow + ' °F' }}</p>
+    <p> Weather Status: {{ weather.status }}</p>
+  </span>
+</div>

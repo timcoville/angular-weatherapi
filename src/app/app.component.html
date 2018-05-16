@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="wrapper">
+  <div style="text-align:center">
+    <img width="290" class="headerimg" alt="Coding Dojo Logo" src="http://developher.co/img/partners/coding_dojo_logo_black.png">
+    <h1>
+      Weather Forecast
+    </h1>
+  </div>
+  <div id="nav">
+    <ul>
+      <li><a [routerLink]="['/seattle']">Seattle, WA</a></li>
+      <li><a [routerLink]="['/sanjose']">San Jose, CA</a></li>
+      <li><a [routerLink]="['/burbank']">Burbank, CA</a></li>
+      <li><a [routerLink]="['/dallas']">Dallas, TX</a></li>
+      <li><a [routerLink]="['/dc']">Washington, DC</a></li>
+      <li><a [routerLink]="['/chicago']">Chicago, IL</a></li>
+    </ul>
+  </div>
+  <router-outlet></router-outlet>
+</div>
